@@ -1,0 +1,199 @@
+img {
+    border: 0;
+}
+.header {
+    height: 76px;
+    /* margin: 0 auto; */
+    /* position: relative; */
+    text-align: center;
+}
+.page-title {
+    /* display: inline-block; */
+    height: 100%;
+    line-height: 76px;
+    margin: 0 80px 0 300px;
+    font-size: 26px;
+    float: left;
+}
+.menu {
+    /* display: inline-block; */
+    float: left;
+}
+.menu-item {
+    font-size: 26px;
+    float: left;
+    margin: 0 120px;
+}
+.menu-item>a {
+    /* display: inline-block; */
+    color: black;
+    padding: 0 25px;
+    height: 100%;
+    line-height: 76px;
+    text-decoration: none;
+}
+.main-content {
+    width: 100%;
+    padding: 12px 0 0;
+}
+.content-left {
+    display: inline-block;
+    vertical-align: top;
+    width: 280px;
+}
+.filter-item {
+    width: 100%;
+}
+.champions-type {
+    float: left;
+    width: 280px;
+    height: 80px;
+    line-height: 80px;
+    color: black;
+    font-size: 18px;
+    border-bottom: 1px solid #ebebeb;
+}
+/* .champions-type::before {
+    content: "";
+    position: absolute;
+    top: 32px;
+    left: 0;
+    width: 4px;
+    height: 18px;
+    background-color: #deb762;
+} */
+.options {
+    float: left;
+    width: 280px;
+    /* font-size: 0; */
+    padding-bottom: 24px;
+}
+span {
+    vertical-align: top;
+    display: inline-block;
+    position: relative;
+    line-height: 24px;
+    margin-top: 24px;
+    padding-left: 24px;
+    font-size: 12px;
+    color: black;
+    cursor: pointer;
+    overflow: hidden;
+}
+/* span.cost1::before,span.cost2::before,span.cost3::before,span.cost4::before,span.cost5::before {
+    content: "";
+    background-image: url("../image/sprite-img.png");
+    background-position: -719px -310px;
+    width: 15px;
+    height: 14px;
+    position: absolute;
+    top: 5px;
+    left: 0;
+    display: block;
+} */
+span:hover {
+    color:#deb762;
+}
+span[class^="cost"]::before {
+    content: "";
+    background-image: url("../image/sprite-img.png");
+    background-position: -719px -310px;
+    width: 15px;
+    height: 14px;
+    position: absolute;
+    top: 5px;
+    left: 0;
+    display: block;
+}
+span[class^="cost"]:hover::before {
+    content: "";
+    background-image: url("../image/sprite-img.png");
+    background-position: -699px -310px;
+    width: 15px;
+    height: 14px;
+}
+span img {
+    position: absolute;
+    left: 0;
+    height: 20px;
+    width: 20px;
+}
+.content-right {
+    display: inline-block;
+    margin-left: 16px;
+    position: relative;
+    vertical-align: top;
+    width: 927px;
+    border-bottom: 1px solid #ebebeb;
+    height: 80px;
+    line-height: 80px;
+}
+.search {
+    position: relative;
+    width: 927px;
+    border-bottom: 1px solid #ebebeb;
+    height: 80px;
+    line-height: 80px;
+}
+.search-box {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    height: 36px;
+}
+.search-input {
+    display: block;
+    position: relative;
+    width: 280px;
+    height: 36px;
+    line-height: 36px;
+    font-size: 14px;
+    color: #888;
+    padding: 0 60px 0 20px;
+    border: 1px solid #ebebeb;
+    border-radius: 20px;
+}
+.champions-list {
+    display: block;
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+    margin-left: -12px;
+}
+.champions-list::after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+.champions {
+    position: relative;
+    float: left;
+    margin: 0 12px;
+    cursor: pointer;
+    height: 116px;
+    width: 60px;
+}
+.border {
+    background-image: url("../image/spr-border.png") no-repeat;
+    background-position: -240px 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60px;
+    height: 60px;
+}
+.champions img {
+    display: block;
+    width: 60px;
+    height: 60px;
+}
+.champions p {
+    margin-top: 4px;
+    text-align: center;
+    font-size: 12px;
+    color: #000;
+    line-height: 16px;
+}
