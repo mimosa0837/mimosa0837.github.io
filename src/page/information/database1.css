@@ -1,52 +1,7 @@
-ul,ol,li {
-    list-style: none;
-}
-.main-content {
-    padding-top: 40px;
-}
-.content-left {
-    display: inline-block;
-    width: 260px;
-    vertical-align: top;
-    margin-top: 58px;
-}
-.content-left a {
-    display: block;
-    height: 60px;
-    line-height: 60px;
-    color: black;
-    font-size: 18px;
-    position: relative;
-}
-.content-left a::before {
-    content: " ";
-    clear: both;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background: #ebebeb;
-    width: 100%;
-    height: 1px;
-}
-.content-left a::after {
-    content: " ";
-    clear: both;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    background: #ebebeb;
-    width: 100%;
-    height: 1px;
-}
-.content-right {
-    width: 940px;
-    display: inline-block;
-    vertical-align: top;
-    margin-left: 30px;
-}
 .database-group {
     display: block;
 }
+
 .database-title {
     border: 1px solid #ebebeb;
     background: #fff;
@@ -54,6 +9,7 @@ ul,ol,li {
     line-height: 40px;
     padding: 0 26px;
 }
+
 .s1 {
     margin-top: 0;
     line-height: 40px;
@@ -62,6 +18,7 @@ ul,ol,li {
     text-align: center;
     padding-left: 0;
 }
+
 .s2 {
     margin-top: 0;
     line-height: 40px;
@@ -70,10 +27,12 @@ ul,ol,li {
     position: relative;
     padding-left: 0;
 }
+
 span>a {
     color: black;
     font-size: 14px;
 }
+
 .tips {
     color: #deb762;
     font-size: 12px;
@@ -88,6 +47,7 @@ span>a {
     right: 20px;
     margin: -8px 0 0;
 }
+
 .database-list li {
     height: 58px;
     line-height: 58px;
@@ -107,6 +67,7 @@ span>a {
     margin-top: 0;
     padding-left: 0;
 }
+
 .txt2 {
     display: inline-block;
     vertical-align: middle;
@@ -118,4 +79,29 @@ span>a {
     margin-top: 0;
     padding-left: 0;
     line-height: 58px;
+}
+
+.group-sort a {
+    height: 60px;
+    line-height: 60px;
+    color: black;
+    font-size: 18px;
+    position: relative;
+    display: block;
+    text-decoration: none;
+}
+
+.database .group-right {
+    display: inline-block;
+    vertical-align: top;
+    width: 940px;
+    margin-left: 30px
+}
+
+.database .database-title {
+    border: 1px solid #ebebeb;
+    background: #fff;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 26px
 }
