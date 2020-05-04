@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,28 +9,37 @@
     <link rel="stylesheet" href="./node_modules/normalize.css/normalize.css">
     <link rel="stylesheet" href="./src/index1.css">
 </head>
+
 <body>
-    <div class="header">
-        <div class="page-title">云顶之弈</div>
-        <div class="menu">
-            <div class="menu-item">
-                <a href="./src/page/information/database1.html" >资料</a>
-            </div>
-            <div class="menu-item">
-                <a href="./src/page/champions/champions.html" >棋子</a>
-            </div>
-            <div class="menu-item">
-                  <a href="./src/page/items/items.html" >装备</a>
-            </div>
-            <div class="menu-item">
-                <a href="./src/page/simulator/simulator.html" >模拟器</a>
+    <div class="g-wrap">
+        <div class="header">
+            <div class="page-title">云顶之弈</div>
+            <div class="menu">
+                <div class="menu-item">
+                    <a href="./src/page/information/database1.html">资料</a>
+                </div>
+                <div class="menu-item">
+                    <a href="./src/page/champions/champions.html">棋子</a>
+                </div>
+                <div class="menu-item">
+                    <a href="./src/page/items/items.html">装备</a>
+                </div>
+                <div class="menu-item">
+                    <a href="./src/page/simulator/simulator.html">模拟器</a>
+                </div>
             </div>
         </div>
+        <div class="main-content">
+            <h3 style="text-align: center;font-size: 28px;">欢迎来到云顶之弈数据库-Season3银河战争</h3>
+            <img src="./image/top-back-img.jpg" style="width: 100%;">
+        </div>
     </div>
-    <div class="main-content">
-        <h3 style="text-align: center;font-size: 28px;">欢迎来到云顶之弈数据库-Season3银河战争</h3>
-        <img src="./image/top-back-img.jpg" style="width: 100%;">
-    </div>
-    
+    <script src="https://cdn.bootcdn.net/ajax/libs/axios/0.19.2/axios.min.js"></script>
+    <button id="btn1">get</button>
+    <button id="btn2">post</button>
+    <button id="btn3">put</button>
+    <button id="btn4">delete</button>
+    <script src="./test_api.js"></script>
 </body>
+
 </html>

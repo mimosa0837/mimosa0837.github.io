@@ -1,15 +1,24 @@
-p {
+p,
+ul {
     margin-block-start: 0;
     margin-block-end: 0;
     margin-inline-start: 0;
     margin-inline-end: 0;
+    padding-inline-start: 0;
 }
+
+input {
+    outline: none;
+    border: 0;
+}
+
 .header {
     height: 76px;
     /* margin: 0 auto; */
     /* position: relative; */
     text-align: center;
 }
+
 .page-title {
     /* display: inline-block; */
     height: 100%;
@@ -18,15 +27,18 @@ p {
     font-size: 26px;
     float: left;
 }
+
 .menu {
     /* display: inline-block; */
     float: left;
 }
+
 .menu-item {
     font-size: 26px;
     float: left;
     margin: 0 120px;
 }
+
 .menu-item>a {
     /* display: inline-block; */
     color: black;
@@ -35,17 +47,20 @@ p {
     line-height: 76px;
     text-decoration: none;
 }
+
 .main-content {
     width: 1240px;
     margin: 0 auto;
     position: relative;
     /* padding: 12px 0 0; */
 }
+
 .content-left {
     display: inline-block;
     vertical-align: top;
     width: 280px;
 }
+
 .content-right {
     display: inline-block;
     vertical-align: top;
@@ -54,6 +69,7 @@ p {
     position: relative;
     border-bottom: 1px solid #ebebeb;
 }
+
 .search {
     position: relative;
     width: 100%;
@@ -61,12 +77,16 @@ p {
     height: 80px;
     line-height: 80px;
 }
+
 .search-box {
     position: relative;
     display: inline-block;
     vertical-align: middle;
     height: 36px;
+    /* outline: 0;
+    border:0; */
 }
+
 .search-input {
     display: block;
     position: relative;
@@ -79,6 +99,7 @@ p {
     border: 1px solid #ebebeb;
     border-radius: 20px;
 }
+
 .clearfix::after {
     content: " ";
     clear: both;
@@ -86,4 +107,20 @@ p {
     display: block;
     font-size: 0;
     height: 0;
+}
+
+
+
+
+
+
+/* test */
+* {
+    box-sizing: border-box;
+}
+.g-wrap {
+    padding-bottom: 50px;
+    position: relative;
+    padding: 76px 0 0;
+    overflow: hidden;
 }

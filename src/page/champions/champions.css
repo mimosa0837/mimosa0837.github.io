@@ -91,8 +91,8 @@ span img {
     width: 60px;
 }
 .border {
-    background: url("../image/spr-border.png") no-repeat;
-    background-position: -240px 0;
+    /* background: url("../../../image/spr-border.png") no-repeat;
+    background-position: -180px 0; */
     position: absolute;
     top: 0;
     left: 0;
@@ -118,4 +118,24 @@ span img {
     display: block;
     font-size: 0;
     height: 0;
+}
+.champions-list .cost1 .border{
+    background: url("../../../image/spr-border.png") no-repeat;
+    background-position: -240px 0;
+}
+.champions-list .cost2 .border{
+    background: url("../../../image/spr-border.png") no-repeat;
+    background-position: -180px 0;
+}
+.champions-list .cost3 .border{
+    background: url("../../../image/spr-border.png") no-repeat;
+    background-position: -120px 0;
+}
+.champions-list .cost4 .border{
+    background: url("../../../image/spr-border.png") no-repeat;
+    background-position: -60px 0;
+}
+.champions-list .cost5 .border{
+    background: url("../../../image/spr-border.png") no-repeat;
+    background-position: 0px 0;
 }

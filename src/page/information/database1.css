@@ -1,26 +1,55 @@
+body,
+dd,
+dl,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ol,
+p,
+ul {
+    margin: 0
+}
+
+.main-content {
+    padding: 40px 0 0;
+}
+
+.content-left {
+    margin-top: 50px;
+}
+
 .database-group {
     display: block;
 }
 
 .database-title {
+    width: 100%;
     border: 1px solid #ebebeb;
     background: #fff;
     height: 40px;
     line-height: 40px;
-    padding: 0 26px;
+    /* padding: 0 26px; */
 }
 
 .s1 {
-    margin-top: 0;
     line-height: 40px;
     width: 70px;
     margin-right: 146px;
     text-align: center;
-    padding-left: 0;
+}
+
+.database-title>span {
+    display: inline-block;
+    vertical-align: middle;
+    height: 38px;
+    line-height: 38px;
 }
 
 .s2 {
-    margin-top: 0;
     line-height: 40px;
     width: 134px;
     text-align: center;
@@ -48,10 +77,15 @@ span>a {
     margin: -8px 0 0;
 }
 
+.database-list {
+    width: 100%;
+    list-style-type: none;
+}
+
 .database-list li {
     height: 58px;
     line-height: 58px;
-    padding: 0 26px;
+    /* padding: 0 26px; */
     border-bottom: 1px solid #ebebeb;
 }
 
@@ -91,17 +125,50 @@ span>a {
     text-decoration: none;
 }
 
-.database .group-right {
+.group-right {
     display: inline-block;
     vertical-align: top;
     width: 940px;
     margin-left: 30px
 }
 
-.database .database-title {
+.database-title {
     border: 1px solid #ebebeb;
     background: #fff;
     height: 40px;
     line-height: 40px;
     padding: 0 26px
+}
+
+.group-sort {
+    margin-top: 58px
+}
+
+.group-right {
+    display: inline-block;
+    vertical-align: top;
+    width: 940px;
+    margin-left: 30px
+}
+.desc {
+    margin: 26px 0 0;
+}
+.desc>p {
+    color: #888;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.desc .num {
+    color: #deb762;
+    font-size: 12px;
+    font-weight: 400;
+    display: inline-block;
+    vertical-align: 0;
+    width: 16px;
+    height: 16px;
+    line-height: 14px;
+    border-radius: 50%;
+    border: 1px solid #deb762;
+    margin-right: 5px;
+    text-align: center;
 }

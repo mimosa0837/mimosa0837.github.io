@@ -1,0 +1,38 @@
+.database-list li {
+    padding: 20px 26px;
+    border-bottom: 1px solid #ebebeb;
+    position: relative;
+    overflow: hidden;
+    height: 120px;
+}
+.database-list li>div {
+    display: inline-block;
+    vertical-align: middle;
+}
+.database-list .trait-1 {
+    width: 184px;
+}
+.database-list .trait-2 {
+    width: 320px;
+    padding: 0 20px 0 0;
+}
+.database-list .trait-3 {
+    width: 380px;
+}
+.pic {
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    overflow: hidden;
+}
+.pic>img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: -30px;
+    filter: drop-shadow(#deb762 30px 0);
+}

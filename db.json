@@ -1,0 +1,11 @@
+{
+    "ports":[
+        {
+            "id":1,"title":"json-server","author":"Jenson"
+        }
+    ],
+    "comments":[{
+        "id":1,"body":"something","postID":1
+    }],
+    "profile":{"name":"typicode"}
+}

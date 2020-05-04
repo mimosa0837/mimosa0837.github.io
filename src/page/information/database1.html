@@ -35,7 +35,7 @@
             <div class="group-sort">
                 <a href="./database1.html">刷新概率</a>
                 <a href="./database2.html">棋子数据</a>
-                <a href="./database4.html">特质</a>
+                <a href="./database4.html">种族</a>
                 <a href="./database3.html">职业</a>
             </div>
         </div>
@@ -64,7 +64,7 @@
                     <li>
                         <span class="txt1">1</span>
                         <span class="txt2">
-                            100%
+                            10000%
                             <b class="tips">2</b>
                         </span>
                         <span class="txt2">0%</span>
@@ -137,6 +137,16 @@
             </div>
         </div>
     </div>
+    <script src="../../../data/refreshProbability.js"></script>
+    <script>
+        for(let i = 0;i<9;i++){
+            for(let j = 0;j<6;j++){
+                document.getElementsByTagName('li')[i].children[j].firstChild.textContent = ChampionRefreshProbability[i][j]
+                // console.log(i,j)
+            }
+        }
+
+    </script>
 </body>
 
 </html>
